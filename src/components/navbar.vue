@@ -1,9 +1,10 @@
 <template>
-<nav class="column is-2 menu">
-    <p class="menu-label"></p>
+  <div>
+    <nav class="column is-3 menu"></nav>
+    <p class="menu-label">Menu</p>
     <ul class="menu-list">
-        <router-link to="heroes">HEROES</router-link>
-        <router-link to="about">ABOUT</router-link>
+      <router-link to="/heroes">Heroes</router-link>
+      <router-link to="/about">About</router-link>
     </ul>
-</nav>
+  </div>
 </template>
